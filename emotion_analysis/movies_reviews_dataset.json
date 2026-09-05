@@ -1,0 +1,600 @@
+[
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": "Action, Crime, Drama",
+    "aliases": ["Batman", "The Dark Knight", "Dark Knight", "Joker"],
+    "reviews": [
+      {
+        "reviewer": "Rolling Stone",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A towering, breathtaking masterpiece of modern cinema. Heath Ledger delivers a chilling, chaotic, and utterly mesmerizing performance as the Joker that will never be forgotten."
+      },
+      {
+        "reviewer": "Chicago Tribune",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "Dark, intense, and deeply gripping. The moral complexity and thrilling tension keep your heart racing from the opening bank heist to the poignant climax."
+      },
+      {
+        "reviewer": "Indie Critic",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An exhausting, bloated, and overly grim slog that takes itself far too seriously. The unrelenting bleakness and loud bombastic score become genuinely tiresome."
+      }
+    ]
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "genres": "Action, Sci-Fi, Thriller",
+    "aliases": ["Inception", "Dream Heist", "Cobb"],
+    "reviews": [
+      {
+        "reviewer": "Empire Magazine",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An astonishing, mind-bending triumph of pure imagination. The visual audacity and emotional core leave you gasping with awe right through the iconic spinning top finale."
+      },
+      {
+        "reviewer": "Variety",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "A brilliantly exhilarating heist thriller through dreams. Leonardo DiCaprio leads an incredible ensemble with intense vulnerability and swagger."
+      },
+      {
+        "reviewer": "The Guardian",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Cold, soulless, and unnecessarily convoluted. For all the spectacle and exposition, you never actually feel emotionally invested in any of the characters."
+      }
+    ]
+  },
+  {
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": "Adventure, Drama, Sci-Fi",
+    "aliases": ["Interstellar", "Space", "Cooper"],
+    "reviews": [
+      {
+        "reviewer": "IGN Movies",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An overwhelmingly emotional and visually majestic space odyssey. Matthew McConaughey's tearful scene watching messages from his children is devastatingly powerful."
+      },
+      {
+        "reviewer": "BBC Culture",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "Visually stunning with an incredible, booming musical score that shakes your core. It dares to dream big about humanity's survival and love across the cosmos."
+      },
+      {
+        "reviewer": "Slate",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Pretentious, sentimental claptrap masked as hard science fiction. The baffling third act reduces profound physics into cheesy platitudes about love conquering gravity."
+      }
+    ]
+  },
+  {
+    "title": "Avatar",
+    "year": 2009,
+    "genres": "Action, Adventure, Fantasy, Sci-Fi",
+    "aliases": ["Avatar", "Pandora", "James Cameron"],
+    "reviews": [
+      {
+        "reviewer": "Roger Ebert",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "An extraordinary technical breakthrough and a glorious feast for the eyes. Entering Pandora feels like discovering an entirely real, luminous world."
+      },
+      {
+        "reviewer": "Entertainment Weekly",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "Pure exhilarating spectacle with unprecedented visual majesty that completely sweeps you away in grand adventure."
+      },
+      {
+        "reviewer": "Salon",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "A cliché-ridden, predictable retread of Pocahontas in space with cardboard characters and painfully simplistic dialogue."
+      }
+    ]
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "genres": "Drama, Romance",
+    "aliases": ["Titanic", "Jack and Rose"],
+    "reviews": [
+      {
+        "reviewer": "Washington Post",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An epic, tear-jerking masterpiece that captures both monumental tragedy and tender, passionate romance. You will weep uncontrollably."
+      },
+      {
+        "reviewer": "San Francisco Chronicle",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "A spectacular historical achievement. The visual grandeur of the ship sinking combined with Jack and Rose's heartbreaking devotion is pure movie magic."
+      },
+      {
+        "reviewer": "The Observer",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Shallow, melodramatic, and painfully corny. The script is filled with laughable dialogue and clichéd caricatures that drag out for over three agonizing hours."
+      }
+    ]
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": "Action, Sci-Fi",
+    "aliases": ["Matrix", "Neo", "Keanu Reeves"],
+    "reviews": [
+      {
+        "reviewer": "Time Magazine",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A kinetic, mind-bending cyberpunk thrill ride that redefined science fiction action. The iconic bullet-time and martial arts sequences are legendary."
+      },
+      {
+        "reviewer": "Empire",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Brilliantly innovative, stylish, and electrifying. It blends philosophical depth with pulse-pounding, breathtaking gun-fu action."
+      },
+      {
+        "reviewer": "Christian Science Monitor",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Style far outweighs substance in this gloomy, violent techno-fantasy that takes its pseudo-intellectual mumbo jumbo far too seriously."
+      }
+    ]
+  },
+  {
+    "title": "The Shining",
+    "year": 1980,
+    "genres": "Horror, Mystery",
+    "aliases": ["The Shining", "Shining", "Jack Torrance"],
+    "reviews": [
+      {
+        "reviewer": "Total Film",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An absolute masterclass in psychological dread and terrifying terror. Kubrick crafts a claustrophobic nightmare that haunts your subconscious long after the credits roll."
+      },
+      {
+        "reviewer": "Horror Hound",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "Jack Nicholson is utterly frightening as his sanity unravels into violent hysteria. The hotel itself feels like an evil living entity."
+      },
+      {
+        "reviewer": "Classic Review",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Disappointingly slow and agonizingly detached. Jack Nicholson is over-the-top ridiculous from the very first scene, eliminating all genuine suspense."
+      }
+    ]
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "genres": "Comedy, Drama, Thriller",
+    "aliases": ["Parasite", "Bong Joon-ho"],
+    "reviews": [
+      {
+        "reviewer": "Los Angeles Times",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A stunning, darkly hilarious, and shocking social thriller. Bong Joon-ho orchestrates an exhilarating tonal roller-coaster that is unforgettable."
+      },
+      {
+        "reviewer": "New York Times",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Brilliant, thrilling, and profoundly tragic. The unexpected midpoint twist completely upends your expectations and hits like a freight train."
+      },
+      {
+        "reviewer": "Cinema Scribe",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Contrived, heavy-handed, and surprisingly unpleasant. The sudden explosion of grotesque violence in the final act feels unearned and revolting."
+      }
+    ]
+  },
+  {
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genres": "Action, Adventure, Sci-Fi",
+    "aliases": ["Avengers", "Endgame", "Marvel", "Iron Man"],
+    "reviews": [
+      {
+        "reviewer": "USA Today",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "A monumental, emotional, and satisfying culmination of a decade of storytelling. The final battle sequence delivers pure unadulterated cinematic joy."
+      },
+      {
+        "reviewer": "The Atlantic",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "Heartfelt, epic, and crowd-pleasing. It honors its beloved characters with poignant farewells and triumphant heroic payoffs."
+      },
+      {
+        "reviewer": "National Review",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An overstuffed, three-hour corporate slog bogged down by convoluted time-travel mechanics and fan-service pandering."
+      }
+    ]
+  },
+  {
+    "title": "Joker",
+    "year": 2019,
+    "genres": "Crime, Drama, Thriller",
+    "aliases": ["Joker", "Arthur Fleck", "Joaquin Phoenix"],
+    "reviews": [
+      {
+        "reviewer": "IndieWire",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Joaquin Phoenix gives a mesmerizing, terrifying, and deeply committed performance that strips away all comic book glamour for raw, tragic despair."
+      },
+      {
+        "reviewer": "Den of Geek",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "A gritty, provocative, and intensely uncomfortable psychological character study that stays with you like a fever dream."
+      },
+      {
+        "reviewer": "Time",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Pompous, nihilistic, and dangerously hollow. It mistakes misery and cruelty for profound artistic insight."
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genres": "Action, Adventure, Fantasy",
+    "aliases": ["Spider-Man", "Spiderman", "No Way Home", "Peter Parker"],
+    "reviews": [
+      {
+        "reviewer": "Deadline",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "A nostalgic, electrifying, and deeply emotional roller-coaster that celebrates the heart and soul of Peter Parker with thrilling surprises."
+      },
+      {
+        "reviewer": "CNN",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "A huge crowd-pleasing celebration that balances multiversal spectacle with gut-wrenching emotional loss and sacrifice."
+      },
+      {
+        "reviewer": "The New Yorker",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "A frenetic, dizzying exercise in brand synergy that relies entirely on cheap nostalgia instead of genuine storytelling."
+      }
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": "Crime, Drama",
+    "aliases": ["Godfather", "Marlon Brando", "Corleone"],
+    "reviews": [
+      {
+        "reviewer": "New York Times",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An unmatched masterpiece of American cinema. Flawless acting, peerless direction, and a chillingly elegant exploration of power, corruption, and family."
+      },
+      {
+        "reviewer": "Hollywood Reporter",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Magnificent storytelling on an epic canvas. Marlon Brando and Al Pacino deliver legendary performances that defined an era."
+      },
+      {
+        "reviewer": "Modern Dissenter",
+        "rating": "2.5/5",
+        "ground_truth": "Negative",
+        "text": "A lengthy, self-indulgent gangster drama that drags significantly in its middle sections and glorifies violent criminals."
+      }
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": "Crime, Drama",
+    "aliases": ["Pulp Fiction", "Tarantino", "Vincent Vega"],
+    "reviews": [
+      {
+        "reviewer": "Rolling Stone",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Wildly inventive, hilariously cool, and exhilaratingly unpredictable. Quentin Tarantino delivers iconic dialogue and non-linear brilliance that reinvented modern cinema."
+      },
+      {
+        "reviewer": "Chicago Sun-Times",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "A tour-de-force of style, energy, and wicked humor. Every scene crackles with electric wit and razor-sharp storytelling."
+      },
+      {
+        "reviewer": "Hartford Courant",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Grotesque, gleefully sadistic, and gratuitously violent. It masks empty moral depravity beneath clever pop-culture banter."
+      }
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": "Drama",
+    "aliases": ["Fight Club", "Tyler Durden", "Brad Pitt"],
+    "reviews": [
+      {
+        "reviewer": "Total Film",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A visceral, subversive, and darkly hilarious masterpiece that punches you in the gut and challenges modern consumer culture with brilliant audacity."
+      },
+      {
+        "reviewer": "Sight & Sound",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "David Fincher directs with unmatched visual fury and venomous irony. Brad Pitt and Edward Norton are phenomenal."
+      },
+      {
+        "reviewer": "Wall Street Journal",
+        "rating": "1.5/5",
+        "ground_truth": "Negative",
+        "text": "A reprehensible, nihilistic celebration of brutality and fascist impulses that is deeply unpleasant and intellectually juvenile."
+      }
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": "Drama, Romance",
+    "aliases": ["Forrest Gump", "Tom Hanks"],
+    "reviews": [
+      {
+        "reviewer": "Chicago Sun-Times",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "A magical, deeply heartwarming film filled with humor, emotional resonance, and Tom Hanks' unforgettable, tender performance."
+      },
+      {
+        "reviewer": "Variety",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "An enchanting, sprawling epic of American optimism and bittersweet love that touches the deepest chords of the human heart."
+      },
+      {
+        "reviewer": "Entertainment Weekly",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Sugary, shamelessly manipulative, and intellectually shallow nostalgia that reduces complex historical turmoil into kitschy greeting card slogans."
+      }
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": "Drama",
+    "aliases": ["Shawshank", "The Shawshank Redemption", "Andy Dufresne"],
+    "reviews": [
+      {
+        "reviewer": "Empire",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An uplifting, beautifully crafted triumph of the human spirit. The inspiring message of hope and patient endurance will move you to tears."
+      },
+      {
+        "reviewer": "Radio Times",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A cinematic treasure featuring extraordinary performances by Tim Robbins and Morgan Freeman. The emotional payoff is virtually peerless."
+      },
+      {
+        "reviewer": "The Times",
+        "rating": "2.5/5",
+        "ground_truth": "Negative",
+        "text": "Overly sentimental and predictable prison melodrama that coats harsh realities in warm, syrupy Hollywood cliché."
+      }
+    ]
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "year": 1977,
+    "genres": "Action, Adventure, Fantasy, Sci-Fi",
+    "aliases": ["Star Wars", "A New Hope", "Luke Skywalker", "Darth Vader"],
+    "reviews": [
+      {
+        "reviewer": "Roger Ebert",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "An out-of-this-world adventure that recaptures the pure joy of cinema. The mythic storytelling, groundbreaking effects, and John Williams score are immortal."
+      },
+      {
+        "reviewer": "The Hollywood Reporter",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "Exhilarating, breathtaking, and endlessly fun. A triumphant space opera that dazzles the senses and warms the heart."
+      },
+      {
+        "reviewer": "The New Yorker",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An uninspired pastiche of Saturday matinee serials lacking genuine wit, depth, or human warmth beneath its noisy laser battles."
+      }
+    ]
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "genres": "Action, Adventure, Drama, Fantasy",
+    "aliases": ["Lord of the Rings", "LOTR", "Fellowship of the Ring", "Frodo"],
+    "reviews": [
+      {
+        "reviewer": "Rolling Stone",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "An epic, breathtaking masterpiece that brings Tolkien's vast mythology to life with staggering visual poetry and heartfelt emotional depth."
+      },
+      {
+        "reviewer": "BBC",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A magnificent fantasy triumph. Peter Jackson crafts an immersive, stunning world filled with danger, courage, and genuine majesty."
+      },
+      {
+        "reviewer": "Sight and Sound",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An overlong and relentless sequence of noisy CGI battles that frequently sacrifices narrative intimacy for bombastic scale."
+      }
+    ]
+  },
+  {
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genres": "Biography, Drama, History",
+    "aliases": ["Oppenheimer", "Christopher Nolan", "Cillian Murphy", "Atomic Bomb"],
+    "reviews": [
+      {
+        "reviewer": "The Guardian",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A towering, devastating historical epic. Cillian Murphy delivers a haunted, monumental performance in Nolan's breathless portrait of dread and genius."
+      },
+      {
+        "reviewer": "IndieWire",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A staggering cinematic achievement. The terrifying Trinity test and deafening psychological courtroom fallout leave you utterly spellbound."
+      },
+      {
+        "reviewer": "The Spectator",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An overlong, hyperactive barrage of loud montage and deafening sound design that rarely lets the audience breathe or connect emotionally."
+      }
+    ]
+  },
+  {
+    "title": "Barbie",
+    "year": 2023,
+    "genres": "Adventure, Comedy, Fantasy",
+    "aliases": ["Barbie", "Margot Robbie", "Ryan Gosling", "Greta Gerwig"],
+    "reviews": [
+      {
+        "reviewer": "Variety",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "A dazzling, uproarious, and delightfully smart feminist comedy. Margot Robbie shines, but Ryan Gosling's hilarious Ken nearly steals the show."
+      },
+      {
+        "reviewer": "Empire",
+        "rating": "4/5",
+        "ground_truth": "Positive",
+        "text": "Visually eye-popping with joyous musical numbers and sharp satirical wit. A vibrant celebration of identity and joy."
+      },
+      {
+        "reviewer": "National Review",
+        "rating": "1.5/5",
+        "ground_truth": "Negative",
+        "text": "A grating, preachy lecture wrapped in neon pink plastic. The heavy-handed gender politics completely derail any genuine fun."
+      }
+    ]
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "genres": "Horror, Mystery, Thriller",
+    "aliases": ["Get Out", "Jordan Peele"],
+    "reviews": [
+      {
+        "reviewer": "Chicago Tribune",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "A brilliant, subversive horror thriller that skewers racial paranoia with chilling suspense and razor-sharp dark humor."
+      },
+      {
+        "reviewer": "The Atlantic",
+        "rating": "4.5/5",
+        "ground_truth": "Positive",
+        "text": "Jordan Peele makes an audacious, masterly debut. The creeping atmosphere of dread builds to an intensely satisfying, thrilling climax."
+      },
+      {
+        "reviewer": "Slant Magazine",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "An uneven satire that struggles to balance its social commentary with standard B-movie horror tropes, ending on an unconvincing note."
+      }
+    ]
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "genres": "Comedy, Drama, Music, Romance",
+    "aliases": ["La La Land", "Emma Stone", "Ryan Gosling", "Musical"],
+    "reviews": [
+      {
+        "reviewer": "The Hollywood Reporter",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A rapturous, euphoric musical dream. Emma Stone and Ryan Gosling are enchanting, and the bittersweet ending is pure cinematic magic."
+      },
+      {
+        "reviewer": "Telegraph",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A surge of gorgeous melodies and romantic nostalgia. It reminds you with dazzling splendor why we fall in love with the movies."
+      },
+      {
+        "reviewer": "The Guardian",
+        "rating": "2/5",
+        "ground_truth": "Negative",
+        "text": "Self-satisfied, nostalgic pastiche with mediocre singing and tap dancing that lacks the genuine passion and grit of classic musicals."
+      }
+    ]
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genres": "Action, Adventure, Sci-Fi",
+    "aliases": ["Jurassic Park", "Dinosaurs", "Spielberg", "T-Rex"],
+    "reviews": [
+      {
+        "reviewer": "Empire",
+        "rating": "5/5",
+        "ground_truth": "Positive",
+        "text": "A triumph of wonder, terror, and pure visual awe. The first sight of the towering Brachiosaurus and the terrifying T-Rex roar remain unforgettable."
+      },
+      {
+        "reviewer": "Roger Ebert",
+        "rating": "4/4",
+        "ground_truth": "Positive",
+        "text": "A true milestone in movie history. Spielberg combines jaw-dropping thrills and suspense with genuine awe."
+      },
+      {
+        "reviewer": "Washington Post",
+        "rating": "2.5/5",
+        "ground_truth": "Negative",
+        "text": "Sensational special effects wrapped around flat, cardboard characters and a sluggish script that takes too long to get going."
+      }
+    ]
+  }
+]
